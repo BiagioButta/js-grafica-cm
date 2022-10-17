@@ -13,6 +13,7 @@
 
     --bb-white: white;
     --bb-black: black;
+    --bb-green: green;
 
     --bb-grey: #808080;
     --bb-grey-100: #F8F9FA;
@@ -25,6 +26,10 @@
     --bb-grey-800: #343A40;
     --bb-grey-900: #212529;
 
+}
+
+.bg-green{
+    background-color: var(--bb-green)
 }
 
 body{
