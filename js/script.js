@@ -8,6 +8,8 @@ playhtml.addEventListener('click',function(){
     creaCelle(10,10)
 })
 
+
+// funzione che crea celle x * y
 function creaCelle ( x, y ){
     
     const celleTot = x*y;
@@ -18,6 +20,7 @@ function creaCelle ( x, y ){
         cella.classList.add('debug')
         cella.innerHTML = `${i}`;
         rowhtml.append(cella);
+        cella.style.width = `calc(100% / ${x})`;
         
         cella.addEventListener('click', function(){
             this.classList.add('bg-green')
