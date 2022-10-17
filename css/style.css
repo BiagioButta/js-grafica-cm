@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+:root{
+
+    --bb-white: white;
+    --bb-black: black;
+
+    --bb-grey: #808080;
+    --bb-grey-100: #F8F9FA;
+    --bb-grey-200: #E9ECEF;
+    --bb-grey-300: #DEE2E6;
+    --bb-grey-400: #CED4DA;
+    --bb-grey-500: #ADB5BD;
+    --bb-grey-600: #6C757D;
+    --bb-grey-700: #495057;
+    --bb-grey-800: #343A40;
+    --bb-grey-900: #212529;
+
+}
+
+body{
+    background-color: var(--bb-grey-200);
+    height: 100vh;
+}
+
+.coordinata{
+    width: calc(100% / 10);
+    aspect-ratio: 1;
+}
+
+
