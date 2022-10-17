@@ -14,12 +14,16 @@
 
         <div>
 
-            <select name="" id="">
-                <option value="">Facile</option>
-                <option value="">Intermedio</option>
-                <option value="">Difficile</option>
+            <select name="" id="difficolta">
+                <option value="0">Scegli la difficoltà</option>
+                <option value="1">Facile 9 X 9</option>
+                <option value="2">Intermedio 16 X 16</option>
+                <option value="3">Difficile 30 X 16</option>
             </select>
             <button id="play">Gioca</button>
+            <input id="ascisse" type="number" placeholder="colonne">
+            <input id="ordinate" type="number" placeholder="righe">
+            <button id="personalizza">Personalizza</button>
 
         </div>
 
@@ -33,7 +37,9 @@
 
         <div class="container justify-content-center d-flex">
 
-            <div class="row debug w-50 text-center"></div>
+            <div class="griglia">
+                
+            </div>
 
         </div>
 

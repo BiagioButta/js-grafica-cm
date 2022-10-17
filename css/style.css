@@ -6,7 +6,6 @@
 
 .debug{
     border: 1px solid black;
-    min-height: 50px;
 }
 
 :root{
@@ -14,6 +13,7 @@
     --bb-white: white;
     --bb-black: black;
     --bb-green: green;
+    --bb-red: red;
 
     --bb-grey: #808080;
     --bb-grey-100: #F8F9FA;
@@ -32,13 +32,36 @@
     background-color: var(--bb-green)
 }
 
+.bg.red{
+    background-color: var(--bb-red);
+}
+
 body{
     background-color: var(--bb-grey-200);
-    height: 100vh;
+    /* height: 100vh; */
+}
+header,
+footer{
+    height: 5vh;
+}
+
+main{
+    /* height: 90vh; */
+}
+
+.griglia{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .coordinata{
     aspect-ratio: 1;
-}
+} 
 
+#ascisse,
+#ordinate{
+    width: 100px;
+}
 
